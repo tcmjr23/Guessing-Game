@@ -6,7 +6,8 @@ Here are some key code samples:
 	{
 		int rand = (int) (Math.random() * (high - low + 1)) + low;
 		return rand;
-   }
+	}
+   
 This method utilizes Math.random() which returns a number within the specified range (between low and high).
 
 # public static String compareToSecret(int guessedNum, int secretNum)
